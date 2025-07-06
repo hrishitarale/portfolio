@@ -1,12 +1,52 @@
-# React + Vite
+# 💼 Personal Portfolio — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built using **React**, **Vite**, and **Tailwind CSS**, featuring dark/light mode toggle and clean UI components.
 
-Currently, two official plugins are available:
+This project serves as a showcase for front-end development skills, projects, and contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡️ Lightning-fast development with **Vite**
+- 🎨 Clean UI styled with **Tailwind CSS**
+- 🌗 Light & dark mode toggle support
+- 🧩 Reusable, modular React components
+- ✨ Smooth animations with custom `@keyframes`
+- 📱 Fully responsive design
+
+---
+
+## 🛠 Tech Stack
+
+- **React** — Front-end library
+- **Vite** — Build tool for instant dev server + fast HMR
+- **Tailwind CSS** — Utility-first CSS framework
+- **TypeScript** *(optional)* — Recommended for type safety
+- **Lucide Icons** — Icon set used for theme toggling
+
+---
+
+## 📁 Folder Structure
+
+```bash
+src/
+├── components/         # Navbar, Hero, Projects, Contact, Footer
+├── App.tsx             # Root component
+├── index.css           # Tailwind custom theming + animations
+└── main.tsx            # Vite entry point
+```
+
+---
+
+##Installation
+# Clone the repository
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
