@@ -33,25 +33,25 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
+    --background: 42 33% 96%;
+    --foreground: 250 25% 16%;
 
     --card: 0 0% 100%;
-    --primary: 250 47% 60%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 275 65% 58%;
+    --primary-foreground: 42 33% 96%;
 
-    --border: 214 32% 91%;
+    --border: 270 20% 85%;
   }
 
   .dark {
-    --background: 222 47% 4%;
-    --foreground: 213 31% 91%;
+    --background: 248 22% 10%;
+    --foreground: 270 20% 90%;
 
-    --card: 222 47% 8%;
-    --primary: 250 65% 65%;
-    --primary-foreground: 213 31% 91%;
+    --card: 250 18% 15%;
+    --primary: 275 80% 70%;
+    --primary-foreground: 248 22% 10%;
 
-    --border: 217 33% 20%;
+    --border: 248 15% 25%;
   }
 
   * {
@@ -82,7 +82,7 @@
 
 @utility text-glow {
   @apply relative font-semibold;
-  text-shadow: 0 0 6px rgba(139, 92, 246, 0.3);
+  text-shadow: 0 0 6px hsla(275, 65%, 58%, 0.45);
 }
 
 @utility card-hover {
@@ -98,7 +98,7 @@
 
 @utility cosmic-button {
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
-         transition-all duration-300 hover:shadow-md hover:scale-105 active:scale-95;
+         transition-all duration-300 hover:shadow-[0_0_10px_hsla(275,65%,58%,0.45)] hover:scale-105 active:scale-95;
 }
 
 #root {

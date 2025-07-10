@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/next";
 import NotFound from "./pages/NotFound";
 import "./index.css";
 import Home from "./pages/Home";
