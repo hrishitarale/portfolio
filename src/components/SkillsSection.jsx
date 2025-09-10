@@ -54,7 +54,7 @@ const SkillsSection = () => {
               className="bg-card p-6 rounded-xl shadow-xs flex flex-col items-center gap-3 card-hover"
             >
               <img
-                src={`/src/assets/icons/${skill.name.toLowerCase()}.png`}
+                src={`/icons/${skill.name.toLowerCase()}.png`}
                 alt={skill.name}
                 className="h-10 w-10"
               />
