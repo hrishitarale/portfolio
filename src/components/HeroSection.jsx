@@ -1,9 +1,13 @@
 import { ArrowDown } from "lucide-react";
 import React from "react";
+import { useFadeInOnView } from "../lib/utils";
+
+const ref = useFadeInOnView();
 
 const HeroSection = () => {
   return (
     <section
+      ref={ref}
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
